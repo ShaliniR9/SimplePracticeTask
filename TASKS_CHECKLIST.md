@@ -7,10 +7,13 @@ This file documents the analytical checklist completed as part of the QA assessm
 ### Functional Test Automation Tasks
 
 -  Automate login functionality with valid credentials
+  - If wrong credentials are provided the login shouldn't successful
 -  Create a new task using form inputs (name, description, date, time, clientName, teamName)
+  - If the mandatory fields are not filled in, an error message should appear and user 
 -  Save the task and verify successful creation
 -  Apply filters (Assigned To, Status)
 -  Mark task as "Completed"
+  - If the task is incomplete, the task should be under incomplete list
 -  Validate task status as "Completed" in the UI
 
 ---
